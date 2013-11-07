@@ -4,7 +4,7 @@
     I want to be able to control players accounts.
 
   Scenario: Issuing Punishments to ReaP939
-    When I go to the summoners report page
+    When I go to the contacts report page
     And I select "reaper939@hotmail.com"
     And press "Issue Ban"
     And I select "7 day Temp"
