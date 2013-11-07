@@ -10,3 +10,10 @@
     And I select "7 day Temp"
     And I press "Send"
     Then I should see "sent email to ReaPer939 concerning ban"
+
+  Scenario: Lifting Ban on ReaPer939
+    When I go to the summoners report page
+    And I select "remove ban"
+    Then I should see "Are you sure?"
+    And I select "yes"
+    Then I should see "User ban lifted"
