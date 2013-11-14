@@ -1,7 +1,7 @@
-  Feature: Tracking Reports
-    As an administrator
-    So that I can track reports
-    I want to count how times a player gets reported and for what
+Feature: Tracking Reports
+  As an administrator
+  So that I can identify troublemakers # try to make these goals as high level as possible
+  I want to count how times a player gets reported and for what
 
   Scenario: Counting ReaPer939 reports
     When I go to the player page for "ReaPer939"
@@ -12,4 +12,4 @@
     When I go to the player page for "ReaPer939"
     And I select "reports"
     Then I should see "3 months" in "time since last report"
-    
+
