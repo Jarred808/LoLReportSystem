@@ -7,6 +7,7 @@
 </ul>
 <form id='add' action="" method="get">
     <input type="submit" value="Number of Reports">
+    <input type="submit" value="Time Since Last Report">
     <input type="submit" value="Ban">
 </form>
 </body>

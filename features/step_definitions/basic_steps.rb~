@@ -101,6 +101,9 @@ When(/^I select button "(.*?)"$/) do |arg1|
   if "number of reports"
   visit 'reaper939reportnumber.html'
   end
+  if "time since last report"
+  visit 'reaper939lastreport.html'
+  end
 end
 
 Then(/^I should see window with the number "(.*?)"$/) do |arg1|

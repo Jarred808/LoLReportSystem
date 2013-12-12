@@ -12,6 +12,6 @@ Feature: Issuing Punishments
     Then I should see window "Sent"
 
   Scenario: Lifting Ban on ReaPer939
-    When I go to the summoners report page
+    When I go to the summoners report page for "ReaPer939"
     And I select option "remove ban"
     Then I should see window "User ban lifted"

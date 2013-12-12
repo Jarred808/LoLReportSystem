@@ -3,7 +3,7 @@
 <body><h1>Public Users Page</h1>
 <p>Public Users Page</p>
 <form id='send' action="" method="get">
-    <input type="submit" value="Ban">
+    <input type="submit" value="ReaPer939">
 </form>
 <ul>
     <li>11123-344, ReaPer939, Leaving, 23:00:22 12/24/2012</li>

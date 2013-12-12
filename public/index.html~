@@ -4,6 +4,7 @@
 <p><form id='add' action="" method="get">
     <input type="submit" value="File a Report">
     <input type="submit" value="Find a Report">
+    <input type="submit" value="Find a Summoner">
     <input type="submit" value="Look at Pending Punishments">
     <input type="submit" value="Exit">
 </form>

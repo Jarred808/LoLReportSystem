@@ -64,7 +64,7 @@ end
 
 When(/^I select option "(.*?)"$/) do |arg1|
   if "Find Summoner Report"
-    visit 'finduser.html'
+    visit 'findreport.html'
   end
 end
 
@@ -102,7 +102,7 @@ When(/^I select button "(.*?)"$/) do |arg1|
   visit 'reaper939reportnumber.html'
   end
   if "time since last report"
-  visit 'reaper939lastreports.html'
+  visit 'reaper939lastreport.html'
   end
 end
 
