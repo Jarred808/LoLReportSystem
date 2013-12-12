@@ -1,7 +1,7 @@
 <html>
 <head></head>
 <body><h1>LoLReportSystem</h1>
-<p>Find Report!</p>
+<p>Find User!</p>
 <form id="get" action="" method="get">
     <input type="text" name="Report Number">
     <input type="submit" value="Find">
