@@ -14,4 +14,6 @@ Feature: Issuing Punishments
   Scenario: Lifting Ban on ReaPer939
     When I go to the summoners report page
     And I select option "remove ban"
+    Then I should see window "Are you sure?"
+    And I select option "yes"
     Then I should see window "User ban lifted"

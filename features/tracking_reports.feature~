@@ -10,6 +10,6 @@ Feature: Tracking Reports
 
   Scenario: Measuring proximity of ReaPer939 reports
     When I go to the summoners report page for "ReaPer939"
-    And I select button "time since last report"
-    Then I should see window with the number "3 months"
+    And I select "reports"
+    Then I should see "3 months" in "time since last report"
 

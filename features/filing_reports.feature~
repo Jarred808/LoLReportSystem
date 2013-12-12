@@ -12,6 +12,6 @@ Feature: File Reports
 
   Scenario: Find Report
     When I go to the report database
-    And I select option "Find Summoner Report"
+    And I select "Find Summoner Report"
     And I fill in "Report Number" with "111123-344"
     Then I should see "11123-344, ReaPer939, Leaving, 23:00:22 12/24/2012"
